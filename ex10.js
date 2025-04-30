@@ -1,4 +1,4 @@
 const prompt = require('prompt-sync')();
 
 let num = parseInt(prompt("Digite um número:"));
-console.log(num % 2 === 0 ? "Par" : "Ímpar");
+for (let i = 0; i < 10; i++) console.log(num);
