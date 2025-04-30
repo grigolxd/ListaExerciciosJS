@@ -60,10 +60,10 @@ Simule o sistema de cobrança de aluguel de carros:
 ---
 
 ## 8️⃣ Pontos por Exercício 🏃‍♂️🏋️‍♀️
-Sistema de pontos para atividades físicas:
-- Até 10h/mês: **2 pontos/h**
-- De 10 a 20h/mês: **5 pontos/h**
-- Acima de 20h/mês: **10 pontos/h**
+Sistema de pontos para atividades físicas:  
+- Até 10h/mês: **2 pontos/h**  
+- De 10 a 20h/mês: **5 pontos/h**  
+- Acima de 20h/mês: **10 pontos/h**  
 - Cada ponto vale **R$ 0,05** 💰  
 
 Leia as horas de atividade e mostre os pontos e o valor ganho.
@@ -115,3 +115,4 @@ Leia **7 nomes** e guarde-os em um vetor.
 ## 1️⃣5️⃣ Vetor de Números Pares ➗
 Leia **10 números inteiros** e armazene em um vetor.  
 - Ao final, exiba **quais são os números pares** e em **quais posições** estão armazenados.
+
