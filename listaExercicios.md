@@ -1,117 +1,51 @@
-# 🧠 Lista de Exercícios de Programação 💻
+# 🧠 Lista de Exercícios de Programação 💡
 
-## 1️⃣ Cálculo de Redução da Vida de um Fumante 🚬
-Escreva um programa para calcular a redução do tempo de vida de um fumante.  
-- Pergunte a quantidade de cigarros fumados por dia e quantos anos ele já fumou.  
-- Considere que um cigarro reduz 10 minutos de vida.  
-- Calcule e exiba o total de dias de vida perdidos.
+## 1️⃣ Par ou Ímpar 🔢
+Escreva um programa que recebe um número inteiro e verifica se ele é par ou ímpar utilizando uma estrutura de controle if.
 
----
+## 2️⃣ Classificação por Idade 👶🧒🧑🧓
+Crie um programa que classifica a idade de uma pessoa em categorias (criança, adolescente, adulto, idoso) com base no valor fornecido, utilizando uma estrutura de controle if-else.
 
-## 2️⃣ Velocidade do Carro 🚗💨
-Escreva um programa que pergunte a velocidade de um carro.  
-- Se ultrapassar 80 km/h, mostre que o usuário foi multado.  
-- A multa é de **R$ 5,00 por cada Km acima do limite**.
+## 3️⃣ Classificação de Notas 📊
+Implemente um programa que recebe uma nota de 0 a 10 e classifica como "Aprovado", "Recuperação", ou "Reprovado" utilizando if-else if.
 
----
+## 4️⃣ Menu Interativo 🧭
+Crie um menu interativo no console que oferece ao usuário a escolha de três opções. Utilize switch-case para implementar a lógica de cada opção selecionada.
 
-## 3️⃣ Preço da Passagem 🚌
-Faça um programa que pergunte a distância em Km que um passageiro deseja percorrer.  
-- Até 200 Km: **R$ 0,50/km**  
-- Acima de 200 Km: **R$ 0,45/km**
+## 5️⃣ Cálculo de IMC ⚖️
+Escreva um programa que calcula o Índice de Massa Corporal (IMC) de uma pessoa e determina a categoria de peso (baixo peso, peso normal, sobrepeso, obesidade) utilizando if-else.
 
----
+## 6️⃣ Tipo de Triângulo 🔺
+Ler três valores para os lados de um triângulo: A, B e C. Verificar se os lados fornecidos formam realmente um triângulo. Caso forme, deve ser indicado o tipo de triângulo: Isósceles, escaleno ou equilátero.
+- Para verificar se os lados fornecem triângulo: A < B + C e B < A + C e C < A + B
+- Isósceles: dois lados iguais (A=B ou A=C ou B=C)
+- Escaleno: todos os lados diferentes (A≠B e B≠C)
+- Equilátero: todos os lados iguais (A=B e B=C)
 
-## 4️⃣ É Triângulo ou Não? 🔺
-Leia o tamanho de três segmentos de reta.  
-- Verifique se é possível formar um triângulo.  
-- Regra: cada lado deve ser menor que a soma dos outros dois.
+## 7️⃣ Compra de Maçãs 🍎
+As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs compradas, calcule e escreva o valor total da compra.
 
----
+## 8️⃣ Ordem Crescente ⬆️
+Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
 
-## 5️⃣ Jogo do JoKenPo ✊✋✌️
-Crie um jogo simples de **Pedra, Papel e Tesoura**.  
-- O jogador escolhe uma opção, o computador escolhe outra.  
-- Exiba o resultado da partida.
+## 9️⃣ Contagem Regressiva ⏱️
+Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console utilizando um loop for.
 
----
+## 🔟 Repetição de Número 🔁
+Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
 
-## 6️⃣ Adivinha o Número 🤔🔢
-Crie um jogo onde o computador sorteia um número entre **1 e 5**.  
-- O jogador tenta adivinhar o número.  
-- Mostre se ele acertou ou errou.
+## 1️⃣1️⃣ Soma com Loop ➕
+Escreva um programa que solicita ao usuário 5 números e calcula a soma total utilizando um loop for.
 
----
+## 1️⃣2️⃣ Tabuada 🧮
+Crie um programa que exibe a tabuada de um número fornecido pelo usuário (de 1 a 10) utilizando um loop for.
 
-## 7️⃣ Aluguel de Carros 🚘
-Simule o sistema de cobrança de aluguel de carros:  
-- Carro popular: **R$ 90/dia**  
-- Carro de luxo: **R$ 150/dia**  
+## 1️⃣3️⃣ Média com Decimais 📉
+Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números.
 
-### Preço por Km:
-**Populares**  
-- Até 100 Km: R$ 0,20/km  
-- Acima de 100 Km: R$ 0,10/km  
+## 1️⃣4️⃣ Fatorial 🔂
+Crie um programa que calcula o fatorial de um número fornecido pelo usuário utilizando um loop for ou while.
 
-**Luxo**  
-- Até 200 Km: R$ 0,30/km  
-- Acima de 200 Km: R$ 0,25/km  
-
----
-
-## 8️⃣ Pontos por Exercício 🏃‍♂️🏋️‍♀️
-Sistema de pontos para atividades físicas:
-- Até 10h/mês: **2 pontos/h**
-- De 10 a 20h/mês: **5 pontos/h**
-- Acima de 20h/mês: **10 pontos/h**
-- Cada ponto vale **R$ 0,05** 💰  
-
-Leia as horas de atividade e mostre os pontos e o valor ganho.
-
----
-
-## 9️⃣ Salários por Gênero 💼
-Crie um app que leia o **salário** e o **sexo** de vários funcionários.  
-- Ao final, exiba o total pago aos **homens** e às **mulheres**.  
-- Pergunte se o usuário deseja continuar após cada entrada.
-
----
-
-## 🔟 Estatísticas Numéricas 📊
-Crie um programa com estrutura **faça enquanto** que leia vários números.  
-- Ao final, mostre:  
-  a) Somatório dos valores 🔢  
-  b) Menor valor digitado 📉  
-  c) Média dos valores 🧮  
-  d) Quantos números são pares ⚖️  
-
----
-
-## 1️⃣1️⃣ Progressão Aritmética ➕➕
-Leia o primeiro termo e a razão de uma PA.  
-- Mostre os **10 primeiros elementos**  
-- Calcule a **soma de todos os termos**
-
----
-
-## 1️⃣2️⃣ Sequência de Fibonacci 🐚
-Mostre os **10 primeiros elementos** da sequência de Fibonacci:  
-Exemplo: 1, 1, 2, 3, 5, 8, 13, 21...
-
----
-
-## 1️⃣3️⃣ Vetor Fibonacci 🔢📦
-Preencha automaticamente um vetor com **15 posições** com os **primeiros 15 elementos da sequência de Fibonacci**.  
-- Use lógica, sem atribuir os valores manualmente.
-
----
-
-## 1️⃣4️⃣ Lista de Nomes 🙋‍♂️🙋‍♀️
-Leia **7 nomes** e guarde-os em um vetor.  
-- Ao final, exiba a lista na **ordem inversa** da inserção.
-
----
-
-## 1️⃣5️⃣ Vetor de Números Pares ➗
-Leia **10 números inteiros** e armazene em um vetor.  
-- Ao final, exiba **quais são os números pares** e em **quais posições** estão armazenados.
+## 1️⃣5️⃣ Fibonacci 🐚
+Escreva um programa que gera e imprime os primeiros 10 números da sequência de Fibonacci utilizando um loop for.
+"""
